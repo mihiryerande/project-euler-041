@@ -11,7 +11,7 @@
 from math import floor, sqrt
 
 
-def is_pandigital(n):
+def is_pandigital(n: int) -> bool:
     """
     Returns True iff `n` is pandigital
 
@@ -35,7 +35,7 @@ def is_pandigital(n):
     return digits == set(range(1, len(s)+1))
 
 
-def main():
+def main() -> int:
     """
     Returns the largest pandigital prime
 
